@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-django-diploma"
+version = "0.1.0"
+description = ""
+authors = ["AlexSokolov <speaker04@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+django = "4.2.6"
+djangorestframework = "3.14.0"
+pillow = "10.1.0"
+drf-spectacular = "0.26.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
