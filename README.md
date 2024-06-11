@@ -1,9 +1,5 @@
 # Интернет магазин
 ___
-## Клонирование репозитория
-- git clone https://gitlab.skillbox.ru/aleksandr_sokolov_11/python_django_diploma.git
-- git checkout new-branch
-___
 ## Создание и активация виртуального окружения
 - sudo apt install python3-virtualenv
 - virtualenv venv
