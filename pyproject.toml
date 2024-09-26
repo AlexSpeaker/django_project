@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-django-diploma"
+version = "0.1.0"
+description = ""
+authors = ["AlexSokolov <speaker04@mail.ru>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.2.6"
+djangorestframework = "3.14.0"
+pillow = "10.1.0"
+drf-spectacular = "0.26.5"
+diploma-frontend = {path = "diploma-frontend/dist/diploma-frontend-0.6.tar.gz"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
